@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  color: #A9A9B3;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+header{
+  background-color: #A9A9B3;
+}
+
+a{
+  color:#A9A9B3;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #A9A9B3;
+}
+
+svg{
+  color: #A9A9B3;
+  text-decoration: none;
+  background: none;
+}
+
+svg:hover {
+  text-decoration: none;
+}
+
+hr{
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        content: '';
+        flex-grow: 1;
+        height: 1px;
+        background: #ffffff45;
+        min-width: 20px;
+        margin: auto;
+      
+          
+}
+
+table{
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+#linux_cmd{
+  font-family: monospace;
+  color: #A9A9B3;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#nav-container{
+  margin-right:103px;
+  margin-left:103px;
+}
+
+#home-content{
+  margin-top:50px;
+}
+
+#about-content, #project-content{
+  margin-top: auto;
+}
+
+.navbar{
+    padding: 30px;
+    background-color: #1B1C1D;
+}
+
+.navbar-dark{
+  background-color: #1B1C1D;
+}
+
+.container-fluid{
+    margin: auto;
+}
+
+.container{
+    margin:auto;
+}
+
+.blinking-cursor {
+    font-weight: 1000;
+    font-size: 30px;
+    color: #fbfbfb;
+    -webkit-animation: 1.5s blink step-end infinite;
+    -moz-animation: 1.5s blink step-end infinite;
+    -ms-animation: 1.5s blink step-end infinite;
+    -o-animation: 1.5s blink step-end infinite;
+    animation: 1.5s blink step-end infinite;
+  }
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
